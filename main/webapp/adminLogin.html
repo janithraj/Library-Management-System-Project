@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+    body{
+        background-attachment: fixed;
+        height: 800px;
+        background-color: wheat;
+
+
+    }
+    #form{
+      border: 1px solid green; 
+     margin-top: 70px;
+           height: 300px;
+           width: 500px;
+           margin-left: 300px;
+           /* background-color: rgb(188, 185, 139); */
+           line-height: 50px;
+           padding-left: 90px;
+           padding-top: 50px;
+           margin-top: 250px;
+           margin-left: 400px;
+           background-position: center;
+           background-color: rgb(126, 229, 126);
+       
+           
+
+    }
+    button{
+        height: 40px;
+        width: 400px;
+        background-color: rgb(48, 48, 211);
+        border-radius: 10px;
+        border-color: blue;
+        color: white;
+        font-family: sans-serif;
+    font-size: large;
+    }
+    button:hover{
+        height: 50px;
+        width: 410px;
+        background-color: rgb(176, 176, 241);
+        border-radius: 10px;
+        background-color: rgb(58, 58, 60);
+        color: rgb(240, 184, 116);
+        font-family: sans-serif;
+    font-size: large;
+    border-color: rgb(14, 14, 15);
+    }
+
+  h2{
+    display: inline;
+    font-family: sans-serif;
+    font-size: large;
+    color: rgb(50, 49, 49);
+  }
+  input{
+    height: 30px;
+    width: 200px;
+    font-size: medium;
+    font-family: sans-serif;
+    color: rgb(110, 27, 27);
+    border-color:rgb(110, 27, 27) ;
+    border-radius: 5px;
+  }
+
+  input:focus{
+    background-color: bisque;
+  }
+  #input1{
+    margin-left: 100px;
+  }
+  #input2{
+    margin-left: 60px;
+  }
+
+</style>
+
+<body>
+
+<form action="AdminController" id="form">
+
+<pre>
+<h2> Admin ID  :</h2><input type="text" placeholder="enter your Adminid" required="required" value="" name="aid" id="input1">
+
+ <h2>Password  :</h2>    <input type="text" placeholder="enter your password" required="required" value="" name="password" id="input2">
+
+<button>LOGIN</button>
+</pre>
+</form>
+
+</body>
+</html>
